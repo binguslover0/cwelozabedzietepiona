@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADA CWEL</title>
+</head>
+<body style="background-color: black; font-family: Arial; ">
+    <h1 style="background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red); -webkit-background-clip: text; color: transparent; width: 364px; margin: auto;">
+        ADA PAKOSZ TO CWEL
+    </h1> <br><br>
+    <h2 style="width: 254px; color: white; margin: auto">Jak nazywamy cwela?</h2>
+    <h3 id="textbox" style="background-color: white; width: 400px; height: 37px; margin: auto; margin-top: 5px; text-align: center; padding-top: 13px"></h3>
+    <button id="reroll" onclick="losuj()" style=" display: block; margin: auto; margin-top: 10px; width: 100px; height: 30px;">REROLL</button>
+    <script>
+        let lista = [
+            "Cwel",
+            "Skinny fat",
+            "Bezbek",
+            'obibok',
+            'pasożyt',
+            'bezużyteczny cwel',
+            'brudas',
+            'Niemyjski',
+            'Adrianna Pakosz',
+            'Adrianna Cwelosz',
+            'Ada',
+            'zawsze głodny',
+            'wiecznie głodny',
+            'zawsze zmęczony',
+            'zawsze uzależniony',
+            'zawsze zjebany',
+            'zawsze ujebany jogurtem',
+            'zawsze oszczany',
+            'siusiumajtek',
+            'obszczaniec',
+            'obszczuch',
+            'airball king',
+            'prezydent cweli',
+            'największy cwel',
+            'valorant gamer',
+            'garbus',
+            'garbusekgaming',
+            'noballbeni',
+            'headset dent',
+            'mewing na kręgosłupie',
+            'wpadka',
+            'pizda',
+            'adhd',
+            'yellow papers',
+            'osiedlowy cwel',
+            'kozak w necie pizda w świecie',
+            'pizduś-plastuś',
+            'fatherless',
+            'margines społeczny',
+            'parias',
+            'wyrzutek',
+            'degenerat',
+            'yellow pampers',
+            'tirówka',
+            'obciągara',
+            'cennik na szyi',
+            'wary obciągary',
+            'pedal',
+            'śmieć',
+            'odrzutek',
+            'pet jebany',
+            'piesek',
+            'szmula',
+            'skrzydlata pizda',
+            'uduszony',
+            'kasti',
+            'kask',
+            'kastek',
+            'kasti',
+            'kastik',
+            'kastrat',
+            'kastratus',
+            'obszczuch',
+            'mocznik',
+            'chujson',
+            'wiecznie ulany',
+            'jebaniec',
+            'jebany cwel wąsaty',
+            'męska tirówka',
+            'prostytut',
+            'skarb alfonsa',
+            'doczep',
+            'żyd',
+            'obrzęk',
+            'cwelix',
+            'beksa',
+            'beksalala sie oszczala',
+            'moczywór',
+            'moczymajt',
+            'majcior',
+            'slipking'
+        ]
+
+        function losuj() {
+            let index = Math.floor(Math.random() * lista.length);
+            let random = lista[index];
+            document.getElementById("textbox").innerText = random;
+        }
+    </script>
+
+    
+</body>
+
+</html>
